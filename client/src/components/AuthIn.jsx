@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Eye, EyeOff, Loader2 } from 'lucide-react';
-import '../App.css';
+import '../style/App.css';
 
 function AuthIn() {
   const [activeTab, setActiveTab] = useState('login');
